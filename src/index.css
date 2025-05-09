@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
 .bg-color{
-  background-color: #0B0B29;
+  background-color: #0a1020;
 }
+
+.btn-color{
+  @apply bg-gradient-to-r from-[#228db0] to-[#1fd6ff] hover:bg-[#1b7a99] transition-all duration-300;
+}
+
+.text-color {
+  @apply bg-gradient-to-r from-[#228db0] to-[#1fd6ff] bg-clip-text text-transparent;
+}
+
 

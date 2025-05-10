@@ -8,6 +8,7 @@ import Products from './pages/Products'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Sidebar from './components/Sidebar'
+import { Footer } from './components/Footer'
 
 
 const App = () => {
@@ -19,13 +20,14 @@ const App = () => {
         <Navbar open={open} setOpen={setOpen} />
         <Sidebar open={open} setOpen={setOpen} />
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Home />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/service" element={<Services />} />
           <Route path="/product" element={<Products />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )

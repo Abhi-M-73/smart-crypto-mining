@@ -9,7 +9,6 @@ import How_Earn from '../components/How_Earn'
 import QuestionPage from '../components/QuestionPage';
 import { StartMining } from '../components/StartMining';
 import SuscribeNews from '../components/SuscribeNews';
-import { Footer } from '../components/Footer';
 
 const Home = () => {
 
@@ -25,7 +24,6 @@ const Home = () => {
             <QuestionPage />
             <StartMining/>
             <SuscribeNews/>
-            <Footer/>
         </div>
     )
 }

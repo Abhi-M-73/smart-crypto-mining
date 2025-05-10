@@ -11,7 +11,10 @@ import img2 from "../assets/home/img2.png";
 import img3 from "../assets/home/img3.png";
 import cpu from "../assets/product/cpu.png";
 import gpu from "../assets/product/gpu.png";
-import { Cpu } from "lucide-react";
+import antminer from "../assets/product/antminer.png";
+import antminer2 from "../assets/product/antminer2.png";
+import goldshell from "../assets/product/goldshell.png";
+
 
 export const sidebarData = [
   { icon: <FaHome />, title: "Home", link: "/" },
@@ -111,5 +114,46 @@ export const dealCardData = [
 export const featuredProductCardData = [
   { img: cpu, power: "500 W", processor: "300 MH/s", title: "Iceriver AE1 Lite Aleo Miner (300Mh)", price: "US$3,149.00" },
   { img: gpu, power: "72 W", processor: "4.8T H/s", title: "NerdMiner NerdQaxe++ Bitcoin Miner", price: "US$520.00" },
+  { img: antminer, power: "500 W", processor: "300 MH/s", title: "Bitmain Antminer KS7 Kaspa Miner", price: "US$3,149.00" },
+  { img: goldshell, power: "72 W", processor: "4.8T H/s", title: "Goldshell Byte Aleo Miner & Dogecoin Miner", price: "US$520.00" },
   { img: cpu, power: "500 W", processor: "300 MH/s", title: "Iceriver AE1 Lite Aleo Miner (300Mh)", price: "US$3,149.00" },
+  { img: gpu, power: "72 W", processor: "4.8T H/s", title: "NerdMiner NerdQaxe++ Bitcoin Miner", price: "US$520.00" },
+  { img: antminer, power: "500 W", processor: "300 MH/s", title: "Bitmain Antminer KS7 Kaspa Miner", price: "US$3,149.00" },
+  { img: goldshell, power: "72 W", processor: "4.8T H/s", title: "Goldshell Byte Aleo Miner & Dogecoin Miner", price: "US$520.00" },
 ];
+
+
+export const popularBrands = [
+  "Bitmain", "Iceriver", "Fluminer", "Goldshell",
+  "Canaan Avalon", "NerdMiner", "VolcMiner",
+  "Bitaxe", "ElphaPex", "Jasminer", "Lucky Miner"
+];
+
+export const popularProducts = [
+  {
+    id: 1,
+    brand: "Bitmain",
+    title: "Data Processor Unit",
+    price: 520,
+    img: antminer, // use your image paths
+    soldOut: true,
+  },
+  {
+    id: 2,
+    brand: "Bitmain",
+    title: "Antminer KS7 Kaspa Miner",
+    price: 520,
+    img: goldshell,
+    soldOut: true,
+  },
+  {
+    id: 3,
+    brand: "Bitmain",
+    title: "Antminer S21e Hydro Bitcoin Miner",
+    price: 520,
+    img: antminer2,
+    soldOut: true,
+  },
+  // Add more products
+];
+

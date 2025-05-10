@@ -5,7 +5,7 @@ import DealCard from './DealCard'
 
 const DealOfDay = () => {
     return (
-        <div className='bg-gradient-to-l from-[#58c1e3] to-[#018cab] flex items-center justify-between w-full my-10 rounded-2xl py-10'>
+        <div className='bg-gradient-to-l from-[#58c1e3] to-[#018cab] flex items-center justify-between w-full my-30 rounded-2xl py-10'>
             <div className='text w-[30%] text-5xl font-semibold p-12 relative'>
                 <h1>Deal of the</h1>
                 <h1>week</h1>

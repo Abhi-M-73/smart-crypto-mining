@@ -7,7 +7,7 @@ const ProductHeroSection = () => {
         <div className='bg-gradient-to-r from-[#58c1e3] to-[#04a3c7] flex w-full my-5 rounded-2xl'>
             <div className='w-[50%] p-10'>
                 <div className='text-4xl font-semibold'>
-                    <h2>Get Your First <span className='text-7xl font-bold text-color'>MINING</span></h2>
+                    <h2>Get Your First <span className='text-7xl font-bold text-[#10ebfa]'>MINING</span></h2>
                     <h2>Output Today. Get a</h2>
                     <h2>Piece of the Future.</h2>
                 </div>

@@ -7,7 +7,7 @@ import logo from "../assets/home/logo.png";
 export const Footer = () => {
   return (
     <div className="max-w-7xl mx-auto text-white py-10 px-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {/* Column 1 */}
         <div className="p-6 bg-gray-900 rounded">
           <img src={logo} alt="Logo" className="w-32 mb-8" />

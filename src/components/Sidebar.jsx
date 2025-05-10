@@ -7,7 +7,7 @@ import { sidebarData } from '../utils/constant';
 const Sidebar = ({ open, setOpen }) => {
     return (
         <div
-            className={`fixed top-0 right-0 h-screen bg-color transition-transform duration-300 border-l shadow ${open ? 'translate-x-0' : 'translate-x-full'
+            className={`fixed top-0 right-0 z-50 h-screen bg-color transition-transform duration-300 border-l shadow ${open ? 'translate-x-0' : 'translate-x-full'
                 } w-72`} // w-64 = 256px standard sidebar width
         >
             {/* Close Button */}

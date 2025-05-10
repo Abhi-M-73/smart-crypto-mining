@@ -1,17 +1,21 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import HeroSection from '../components/HeroSection';
 import OurTopIntegration from '../components/OurTopIntegration';
-import Products from '../components/Products';
+import ProductSection from '../components/ProductSection';
+import ServiceSection from '../components/ServiceSection';
+import FeatureSection from '../components/FeatureSection';
+import CoinDoxSection from '../components/CoinDoxSection';
 
 const Home = () => {
+
     return (
-        <div
-            className="max-w-7xl mx-auto text-white"
-            
-        >
-            <Hero />
+        <div className="sm:max-w-7xl w-full mx-auto text-white" >
+            <HeroSection />
             <OurTopIntegration />
-            <Products />
+            <ProductSection />
+            <ServiceSection />
+            <FeatureSection />
+            <CoinDoxSection />
         </div>
     )
 }

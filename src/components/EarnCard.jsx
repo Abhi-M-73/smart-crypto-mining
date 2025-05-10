@@ -4,7 +4,7 @@ import { SlArrowRight } from "react-icons/sl";
 
 const EarnCard = ({img, price , title}) => {
   return (
-    <div className="w-full max-w-xl h-[70vh] bg-[#111828] border border-gray-700 p-4 overflow-hidden">
+    <div className="w-full max-w-xl  bg-[#111828] hover:border-[rgb(68,111,120)] hover:bg-[#1b7a99] transition-all duration-300 border border-gray-700 p-4 overflow-hidden">
       <img
         src={img}
         alt="computer"

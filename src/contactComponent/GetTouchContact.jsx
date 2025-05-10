@@ -8,12 +8,12 @@ const GetTouchContact = () => {
     <div className="relative w-full text-white py-12 px-4">
       {/* Blurred background */}
       <div
-        className="absolute -inset-10 bg-center bg-contain bg-no-repeat"
+        className="absolute -inset-10 bg-center bg-contain bg-no-repeat animate-spin360"
         style={{ backgroundImage: `url(${animat})` }}
       ></div>
 
       {/* Main content over blurred background */}
-      <div className="relative max-w-4xl mx-auto lg:py-6 lg:px-6 flex flex-col lg:flex-row items-center justify-between rounded-2xl p-6 md:p-8 gap-8 bg-black/50">
+      <div className="relative max-w-4xl mx-auto lg:py-6 lg:px-6 flex flex-col lg:flex-row items-center justify-between rounded-2xl p-6 md:p-8 gap-8 bg-black/30">
         {/* Form Section */}
         <div className="w-full lg:w-[45%]">
           <h1 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">

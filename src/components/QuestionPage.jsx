@@ -12,14 +12,14 @@ export default function QuestionPage() {
 
   return (
 
-    <div className="max-w-full mx-auto bg-color text-white py-10 px-4">
-    <div className="max-w-full mx-auto mt-19 p-4">
-      <h2 className="text-6xl  font-bold mb-20 text-color">Questions</h2>
+    <div className="max-w-full mx-auto  text-white py-10 px-4">
+    <div className="max-w-full mx-auto mt-19 p-4 ">
+      <h2 className="text-6xl  font-bold mb-20  text-color">Questions</h2>
       <div className="space-y-4">
         {faqs.map((item, index) => (
           <div
             key={index}
-            className=" overflow-hidden"
+            className=" overflow-hidden hover:border-[rgb(68,111,120)] hover:bg-[#1b7a99] transition-all duration-300"
           >
             <button
               onClick={() => toggle(index)}

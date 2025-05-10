@@ -13,4 +13,17 @@
   @apply bg-gradient-to-r from-[#228db0] to-[#1fd6ff] bg-clip-text text-transparent;
 }
 
+@keyframes spin360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin360 {
+  animation: spin360 30s linear infinite;
+}
+
 

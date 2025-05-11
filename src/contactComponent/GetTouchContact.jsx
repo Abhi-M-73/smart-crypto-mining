@@ -8,23 +8,23 @@ const GetTouchContact = () => {
     <div className="relative w-full text-white py-12 px-4">
       {/* Blurred background */}
       <div
-        className="absolute -inset-10 bg-center bg-contain bg-no-repeat animate-spin360"
+        className="absolute -inset-10 bg-center bg-contain bg-no-repeat w-96 sm:w-full"
         style={{ backgroundImage: `url(${animat})` }}
       ></div>
 
       {/* Main content over blurred background */}
-      <div className="relative max-w-4xl mx-auto lg:py-6 lg:px-6 flex flex-col lg:flex-row items-center justify-between rounded-2xl p-6 md:p-8 gap-8 bg-black/30">
+      <div className="relative max-w-5xl mx-auto lg:py-6 lg:px-6 flex flex-col lg:flex-row items-center justify-between rounded-2xl p-6 md:p-8 gap-8 bg-black/30">
         {/* Form Section */}
-        <div className="w-full lg:w-[45%]">
-          <h1 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">
+        <div className="w-full lg:w-[50%]">
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tight mb-2 text-center lg:text-left">
             Let's connect constellations
           </h1>
-          <p className="mb-6 text-sm md:text-base text-gray-300">
+          <p className="mb-6 text-sm md:text-base text-gray-300 text-center lg:text-left">
             Let's align our constellations! Reach out and let the magic of
             collaboration illuminate our skies.
           </p>
           <form className="space-y-4">
-            <div className="flex flex-col md:flex-row gap-4">
+            <div className="flex flex-col md:flex-row gap-2">
               <input
                 type="text"
                 placeholder="First Name"

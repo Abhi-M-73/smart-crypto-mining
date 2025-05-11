@@ -4,8 +4,8 @@ import security from "../assets/home/security.png";
 import cryptocurrency from "../assets/home/cryptocurrency.png";
 import protection from "../assets/home/protection.png";
 import support from "../assets/home/support.png";
-import { FaHome, FaMicroblog, FaProductHunt } from "react-icons/fa";
-import { BiSolidContact } from "react-icons/bi";
+import { FaHome, FaMicroblog, FaProductHunt, FaSuperpowers } from "react-icons/fa";
+import { BiSolidContact, BiSupport } from "react-icons/bi";
 import img1 from "../assets/home/img1.png";
 import img2 from "../assets/home/img2.png";
 import img3 from "../assets/home/img3.png";
@@ -14,6 +14,8 @@ import gpu from "../assets/product/gpu.png";
 import antminer from "../assets/product/antminer.png";
 import antminer2 from "../assets/product/antminer2.png";
 import goldshell from "../assets/product/goldshell.png";
+import { RiSecurePaymentFill } from "react-icons/ri";
+import { TbTaxEuro, TbTruckDelivery } from "react-icons/tb";
 
 
 export const sidebarData = [
@@ -156,4 +158,86 @@ export const popularProducts = [
   },
   // Add more products
 ];
+
+export const marketPlaceData = [
+  {
+    icon: <BiSupport />,
+    title: "24/7 Support",
+    description: "When You're online. No matter the time, We're there for you.",
+  },
+  {
+    icon: <RiSecurePaymentFill />,
+    title: "Payments",
+    description:
+      "Pay with Peace of mind - Secure System With Bank (TT) And Crypto Payment Gateway",
+  },
+  {
+    icon: <FaSuperpowers />,
+    title: "PSU",
+    description: "A Miner That Comes With Free Power Supply Unit",
+  },
+  {
+    icon: <TbTruckDelivery />,
+    title: "Delivery",
+    description:
+      "Ship with Smooth and Speedy Process from our Warehouse to Your Doorstep",
+  },
+  {
+    icon: <TbTaxEuro />,
+    title: "Import Tax & Duty",
+    description:
+      "Get a Low-Value Declaration with us to Save Tax or DDP Service",
+  },
+];
+
+
+
+
+
+import dragonball from '../assets/product/dragonball.png';
+import elpha from '../assets/product/elpha.png';
+import fluminer from '../assets/product/fluminer.png';
+import gold from '../assets/product/gold.png';
+import ibelink from '../assets/product/ibelink.png';
+import iceriver from '../assets/product/iceriver.png';
+import innosilicon from '../assets/product/innosilicon.png';
+import ipollo from '../assets/product/ipollo.png';
+
+
+export const bestSellerCardData = [
+  {
+    title: "DragonBall",
+    image: dragonball,
+  },
+  {
+    title: "ElphaPex",
+    image: elpha,
+  },
+  {
+    title: "Fluminer",
+    image: fluminer,
+  },
+  {
+    title: "Goldshell",
+    image: gold,
+  },
+  {
+    title: "Ibelink",
+    image: ibelink,
+  },
+  {
+    title: "Iceriver",
+    image: iceriver,
+  },
+  {
+    title: "Innosilicon",
+    image: innosilicon,
+  },
+  {
+    title: "Ipallo",
+    image: ipollo,
+  },
+];
+
+
 

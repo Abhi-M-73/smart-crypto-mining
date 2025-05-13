@@ -1,11 +1,15 @@
-import React from 'react'
 
-const Blog = () => {
+import React from 'react';
+import Blogherosection from "../blogcomponents/Blogherosection";
+import BlogSidebarSection from "../blogcomponents/BlogSidebarSection";
+const Home = () => {
     return (
         <div className="sm:max-w-7xl w-full mx-auto text-white" >
-            Blog
+       <Blogherosection></Blogherosection>
+       <BlogSidebarSection></BlogSidebarSection>
+     
+
         </div>
     )
 }
-
-export default Blog
+export default Home;

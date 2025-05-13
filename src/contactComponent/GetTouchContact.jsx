@@ -8,7 +8,7 @@ const GetTouchContact = () => {
     <div className="relative w-full text-white py-12 px-4">
       {/* Blurred background */}
       <div
-        className="absolute -inset-10 bg-center bg-contain bg-no-repeat w-96 sm:w-full"
+        className="absolute -inset-10 bg-center bg-contain bg-no-repeat w-96 sm:w-full mt-5"
         style={{ backgroundImage: `url(${animat})` }}
       ></div>
 

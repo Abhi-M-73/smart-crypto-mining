@@ -3,12 +3,15 @@ import logo from '../assets/home/logo.png';
 import miniLogo from '../assets/home/mini-logo.png';
 import { FaUser } from 'react-icons/fa';
 import { CgMenuRight } from 'react-icons/cg';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = ({ open, setOpen }) => {
+    const navigate = useNavigate();
+
     return (
         <div className="max-w-7xl mx-auto bg-color text-white flex items-center justify-between py-3 px-4 sm:px-6 md:px-8">
             {/* Logo Section */}
-            <div>
+            <div onClick={() => navigate('/')}>
                 <img src={logo} alt="logo" className="h-10 object-cover hidden sm:block" />
                 <img src={miniLogo} alt="mini logo" className="h-10 object-cover block sm:hidden" />
             </div>

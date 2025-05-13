@@ -7,6 +7,7 @@ import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Sidebar from './components/Sidebar'
 import { Footer } from './components/Footer'
+import Signup from './components/Signup'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/product" element={<Products />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
         <Footer />
       </BrowserRouter>
